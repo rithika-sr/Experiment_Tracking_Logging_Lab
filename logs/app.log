@@ -1,0 +1,32 @@
+2025-12-01 11:21:33,149 - heart_app.main - INFO - Application started.
+2025-12-01 11:21:33,149 - heart_app.data_loader - INFO - Attempting to load dataset from: heart.csv
+2025-12-01 11:21:33,191 - heart_app.data_loader - DEBUG - Dataset loaded successfully with shape: (303, 14)
+2025-12-01 11:21:33,191 - heart_app.data_loader - DEBUG - Columns found: ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang', 'oldpeak', 'slope', 'ca', 'thal', 'target']
+2025-12-01 11:21:33,191 - heart_app.analyzer - INFO - Starting analysis on numeric columns...
+2025-12-01 11:21:33,230 - heart_app.analyzer - INFO - Analysis completed successfully.
+2025-12-01 11:21:33,230 - heart_app.main - INFO - Final Results:
+
+2025-12-01 11:21:33,231 - heart_app.main - INFO - Application finished successfully.
+2025-12-01 11:26:54,356 - heart_app.main - INFO - Application started.
+2025-12-01 11:26:54,356 - heart_app.data_loader - INFO - Attempting to load dataset from: heart.csv
+2025-12-01 11:26:54,361 - heart_app.data_loader - DEBUG - Dataset loaded successfully with shape: (303, 14)
+2025-12-01 11:26:54,361 - heart_app.data_loader - DEBUG - Columns found: ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang', 'oldpeak', 'slope', 'ca', 'thal', 'target']
+2025-12-01 11:26:54,361 - heart_app.analyzer - INFO - Starting analysis on numeric columns...
+2025-12-01 11:26:54,362 - heart_app.analyzer - DEBUG - Analyzed column 'age' -> mean=54.366336633663366, max=77
+2025-12-01 11:26:54,362 - heart_app.analyzer - DEBUG - Analyzed column 'sex' -> mean=0.6831683168316832, max=1
+2025-12-01 11:26:54,362 - heart_app.analyzer - DEBUG - Analyzed column 'cp' -> mean=0.966996699669967, max=3
+2025-12-01 11:26:54,362 - heart_app.analyzer - DEBUG - Analyzed column 'trestbps' -> mean=131.62376237623764, max=200
+2025-12-01 11:26:54,363 - heart_app.analyzer - DEBUG - Analyzed column 'chol' -> mean=246.26402640264027, max=564
+2025-12-01 11:26:54,363 - heart_app.analyzer - DEBUG - Analyzed column 'fbs' -> mean=0.1485148514851485, max=1
+2025-12-01 11:26:54,363 - heart_app.analyzer - DEBUG - Analyzed column 'restecg' -> mean=0.528052805280528, max=2
+2025-12-01 11:26:54,363 - heart_app.analyzer - DEBUG - Analyzed column 'thalach' -> mean=149.64686468646866, max=202
+2025-12-01 11:26:54,363 - heart_app.analyzer - DEBUG - Analyzed column 'exang' -> mean=0.32673267326732675, max=1
+2025-12-01 11:26:54,363 - heart_app.analyzer - DEBUG - Analyzed column 'oldpeak' -> mean=1.0396039603960396, max=6.2
+2025-12-01 11:26:54,363 - heart_app.analyzer - DEBUG - Analyzed column 'slope' -> mean=1.3993399339933994, max=2
+2025-12-01 11:26:54,363 - heart_app.analyzer - DEBUG - Analyzed column 'ca' -> mean=0.7293729372937293, max=4
+2025-12-01 11:26:54,364 - heart_app.analyzer - DEBUG - Analyzed column 'thal' -> mean=2.3135313531353137, max=3
+2025-12-01 11:26:54,364 - heart_app.analyzer - DEBUG - Analyzed column 'target' -> mean=0.5445544554455446, max=1
+2025-12-01 11:26:54,364 - heart_app.analyzer - INFO - Analysis completed successfully.
+2025-12-01 11:26:54,364 - heart_app.main - INFO - Final Results:
+
+2025-12-01 11:26:54,364 - heart_app.main - INFO - Application finished successfully.
